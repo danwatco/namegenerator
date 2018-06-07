@@ -42,7 +42,7 @@ jQuery(function($) {
         }
     }
 
-    $("#cookie_accept a").click(function(){
+    $("#cookie_close").click(function(){
         setCookie_eu("cookies_consent", 1, 30);
     });
 
